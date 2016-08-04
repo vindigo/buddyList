@@ -8,6 +8,7 @@ define([
 		model: buddyModel,
 		initialize: function(){		// Deferred load
 			this.deferred = this.fetch();
+      alert("Hello Friend. Collection initialized.");
 		}
 	});
 

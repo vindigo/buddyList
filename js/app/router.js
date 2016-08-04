@@ -5,9 +5,8 @@ define([
   'backbone',
   // Views to load
   'views/buddyListView',
-  'views/buddyDetailView',
-  'views/buddyMainView'
-], function($, _, Backbone, buddyListView, buddyDetailView, buddyMainView){
+  'views/buddyDetailView'
+], function($, _, Backbone, buddyListView, buddyDetailView){   
 	// All of the dependencies in the array above become parameters of the function to be managed
 	var AppRouter = Backbone.Router.extend({
 		routes: {

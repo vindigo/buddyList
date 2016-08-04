@@ -8,7 +8,9 @@ define([
 
 	var buddyListView = Backbone.View.extend({
 		el: $('#page'),
-		initialize: function(){},
+		initialize: function(){
+      alert("Hello Friend. View initialized.");
+    },
 		render: function(){
 			var data = {};
 			//We can add some data to the template here if needed
