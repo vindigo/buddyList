@@ -9,6 +9,6 @@ In a terminal:<br />
 3. run 'grunt' to start the server. <br />
 
 In your browser:<br />
-4. Navigate to 'http://localhost:9000/index.html'<br />
+4. Navigate to 'http://localhost:9000/index.html'.<br />
 
 That should bring up the app.
