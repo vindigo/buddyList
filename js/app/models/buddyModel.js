@@ -16,7 +16,7 @@ define([
       alert("Hello Friend. Model initialized.");
     }
 
-	});
+	}); 
 
 	// We don't instantiate the model, as we'll do when we need to create a new instance of it.
   return buddyModel;
